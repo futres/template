@@ -1,4 +1,4 @@
-﻿column,uri,entity_alias,example,nned,userType,Notes
+﻿column,uri,entity_alias,example,need,userType,Notes
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,NMNH for the National Museum of Natural History,Required/warning,all,
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,all,
 specimenID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
