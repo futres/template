@@ -1,47 +1,47 @@
-﻿column	uri	entity_alias	example	need	userType	Notes
-institutionCode	http://rs.tdwg.org/dwc/terms/ownerInstitutionCode	vertebrateOrganism	NMNH for the National Museum of Natural History	Required/warning	all	
-collectionCode	http://rs.tdwg.org/dwc/terms/collectionCode	vertebrateOrganism	PAL for Department of Paleontology	required/warning	all	
-specimenID	http://rs.tdwg.org/dwc/terms/organismID	vertebrateOrganism	of the physical object	required/warning	all	
-specimenType		vertebrateOrganism	whole organism; partial organism; single element of an organism (need controlled vocab)	required/warning	all	JBD:this is either designated by the pre-processor as a designation for every record in the dataset or we have a mapping file which translates the provided options in the incoming dataset to ontology terms
-aggregatedData			Y or N	put into holding tank	all	
-scientificName	http://rs.tdwg.org/dwc/terms/scientificName	vertebrateOrganism	Neotoma cinerea; at any taxonomic level	required	all	
-decimalLatitude	http://rs.tdwg.org/dwc/terms/decimalLatitude	organismalTraitObsProcess	45N	suggested (need this or locality)	all	
-decimalLongitude	http://rs.tdwg.org/dwc/terms/decimalLongitude	organismalTraitObsProcess	-110W	suggested (need this or locality)	all	
-coordinateUncertaintyInMeters	http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters	organismalTraitObsProcess	buffered a 10degrees or at 20 km		all	
-verbatimLocality	http://rs.tdwg.org/dwc/terms/verbatimLocality	organismalTraitObsProcess	3 miles west of Gainesville or underneath of Guatemala City	suggested (need this or lat/long)	all	
-verbatimEventDate	http://rs.tdwg.org/dwc/terms/verbatimEventDate	organismalTraitObsProcess	'date of collection event, not of measurement; Jun 1847'	required	all	
-basisOfRecord	http://rs.tdwg.org/dwc/terms/basisOfRecord	vertebrateOrganism	preserved or fossil etc	required/warning	all	'in dwc there is: PreservedSpecimen, FossilSpecimen, and HumanObservation'
-sex	http://rs.tdwg.org/dwc/terms/sex	vertebrateOrganism	M	suggested	all	
-measurementType	http://rs.tdwg.org/dwc/terms/measurementType	scalarMeasurementDatum	controlled vocabulary; tail length	required	all	
-measurementValue	http://rs.tdwg.org/dwc/terms/measurementValue	scalarMeasurementDatum	unitless number; 45	required	all	
-measurementUnit	http://rs.tdwg.org/dwc/terms/measurementUnit	scalarMeasurementDatum	unit; mm	required	all	
-measurementMethod	http://rs.tdwg.org/dwc/terms/measurementMethod	scalarMeasurementDatum	calipers	suggested	all	
-minimumChronometricAge	urn:minimumChronometricAge	organismalTraitObsProcess	14	'suggested (need this, lithostratigaphicTerms, or collectionDate)'	all	
-minimumChronometricAgeReferenceSystem	urn:minimumChronometricAgeReferenceSystem	organismalTraitObsProcess	mya	needed if do minimumChronometricAge	all	
-maximumChronometricAge	urn:maximumChronometricAge	organismalTraitObsProcess	23	suggest (or Lithostratigraphic Terms)	all	
-maximumChronometricAgeReferenceSystem	urn:maximumChronometricAgeReferenceSystem	organismalTraitObsProcess	mya	needed if do maximumChronometricAge	all	
-chronometricAgeProtocol	urn:chronometricAgeProtocol	organismalTraitObsProcess	radiocarbon or relative	needed if do ChronometricAge	zoarch; paleo	
-chronometricAgeUncertaintyMethod	urn:chronometricAgeUncertaintyMethod	organismalTraitObsProcess	fairbanks 2007	suggested if do either ChronometricAge	zoarch; paleo	
-chronometricAgeUncertaintyInYears	urn:chronometricAgeUncertaintyInYears	organismalTraitObsProcess	standard deviation	suggested if do either ChronometricAge	zoarch; paleo	
-lithostratigraphicTerms	urn:lithostratigraphicTerms	organismalTraitObsProcess	Pliocene-Pleistocene	suggested  (or ChronometricAge)	paleo	may be easier because then can parse to lower and older intervals
-group	http://rs.tdwg.org/dwc/terms/group	organismalTraitObsProcess	Belly River Group	suggested	paleo	
-groupURI	https://macrostrat.org					
-formation	http://rs.tdwg.org/dwc/terms/formation	organismalTraitObsProcess	Judith River Formation	suggested	paleo	
-formationURI	https://macrostrat.org					
-member	http://rs.tdwg.org/dwc/terms/member	organismalTraitObsProcess	Dinosaur Park member	suggested	paleo	
-memberURI	https://macrostrat.org					
-bed	http://rs.tdwg.org/dwc/terms/bed	organismalTraitObsProcess	Bonebed 50	suggested	paleo	
-bedURI	https://macrostrat.org					
-sitename	http://rs.tdwg.org/dwc/terms/locationRemarks	organismalTraitObsProcess	Tecal (non modern city)		zoarch; paleo	
-sitenameURI	https://opencontext.org/; https://paleobiodb.org/#/					
-contextName	http://perio.do/en/		provenience AG3-4ab	suggested	zooarch	text
-contextNameURI	https://opencontext.org/					
-culturalStratigraphyCulturalRegion	urn:culturalStratigraphyCulturalRegion		Mesoamerica	suggested	zooarch	text
-culturalRegionURI						
-culturalStratigraphyCultureName	urn:culturalStratigraphyCulture		Maya [http://vocab.getty.edu/page/aat/300017826]	suggested	zooarch	text
-cultureNameURI	http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/					
-culturalStratigraphyOccupationPeriod	urn:culturalStratigraphyOccupationPeriod		Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2]	suggested	zooarch	text
-occupationPeriodURI	http://perio.do/en/					
-culturalStratigraphyLocalChronology	urn:culturalStratigraphyLocalChronology		Tepeu [http://vocab.getty.edu/page/aat/300017108]	suggested	zooarch	text
-localChronologyURI	http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/					
-references	http://purl.org/dc/terms/references	organismalTraitObsProperty	A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format	required	all	
+﻿column,uri,entity_alias,example,need,userType,Notes
+institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,NMNH for the National Museum of Natural History,Required/warning,all,
+collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,all,
+specimenID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
+specimenType,,vertebrateOrganism,whole organism; partial organism; single element of an organism (need controlled vocab),required/warning,all,JBD:this is either designated by the pre-processor as a designation for every record in the dataset or we have a mapping file which translates the provided options in the incoming dataset to ontology terms
+aggregatedData,,,Y or N,put into holding tank,all,
+scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,all,
+decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,organismalTraitObsProcess,45N,suggested (need this or locality),all,
+decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,organismalTraitObsProcess,-110W,suggested (need this or locality),all,
+coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,organismalTraitObsProcess,buffered a 10degrees or at 20 km,,all,
+verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,organismalTraitObsProcess,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),all,
+verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,organismalTraitObsProcess,"date of collection event, not of measurement; Jun 1847",required,all,
+basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,preserved or fossil etc,required/warning,all,"in dwc there is: PreservedSpecimen, FossilSpecimen, and HumanObservation"
+sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,M,suggested,all,
+measurementType,http://rs.tdwg.org/dwc/terms/measurementType,scalarMeasurementDatum,controlled vocabulary; tail length,required,all,
+measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,scalarMeasurementDatum,unitless number; 45,required,all,
+measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,scalarMeasurementDatum,unit; mm,required,all,
+measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,scalarMeasurementDatum,calipers,suggested,all,
+minimumChronometricAge,urn:minimumChronometricAge,organismalTraitObsProcess,14,"suggested (need this, lithostratigaphicTerms, or collectionDate)",all,
+minimumChronometricAgeReferenceSystem,urn:minimumChronometricAgeReferenceSystem,organismalTraitObsProcess,mya,needed if do minimumChronometricAge,all,
+maximumChronometricAge,urn:maximumChronometricAge,organismalTraitObsProcess,23,suggest (or Lithostratigraphic Terms),all,
+maximumChronometricAgeReferenceSystem,urn:maximumChronometricAgeReferenceSystem,organismalTraitObsProcess,mya,needed if do maximumChronometricAge,all,
+chronometricAgeProtocol,urn:chronometricAgeProtocol,organismalTraitObsProcess,radiocarbon or relative,needed if do ChronometricAge,zoarch; paleo,
+chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,organismalTraitObsProcess,fairbanks 2007,suggested if do either ChronometricAge,zoarch; paleo,
+chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,organismalTraitObsProcess,standard deviation,suggested if do either ChronometricAge,zoarch; paleo,
+lithostratigraphicTerms,urn:lithostratigraphicTerms,organismalTraitObsProcess,Pliocene-Pleistocene,suggested  (or ChronometricAge),paleo,may be easier because then can parse to lower and older intervals
+group,http://rs.tdwg.org/dwc/terms/group,organismalTraitObsProcess,Belly River Group,suggested,paleo,
+groupURI,https://macrostrat.org,,,,,
+formation,http://rs.tdwg.org/dwc/terms/formation,organismalTraitObsProcess,Judith River Formation,suggested,paleo,
+formationURI,https://macrostrat.org,,,,,
+member,http://rs.tdwg.org/dwc/terms/member,organismalTraitObsProcess,Dinosaur Park member,suggested,paleo,
+memberURI,https://macrostrat.org,,,,,
+bed,http://rs.tdwg.org/dwc/terms/bed,organismalTraitObsProcess,Bonebed 50,suggested,paleo,
+bedURI,https://macrostrat.org,,,,,
+sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,organismalTraitObsProcess,Tecal (non modern city),,zoarch; paleo,
+sitenameURI,https://opencontext.org/; https://paleobiodb.org/#/,,,,,
+contextName,http://perio.do/en/,,provenience AG3-4ab,suggested,zooarch,text
+contextNameURI,https://opencontext.org/,,,,,
+culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,,Mesoamerica,suggested,zooarch,text
+culturalRegionURI,,,,,,
+culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,zooarch,text
+cultureNameURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,,,,,
+culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,zooarch,text
+occupationPeriodURI,http://perio.do/en/,,,,,
+culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,zooarch,text
+localChronologyURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,,,,,
+references,http://purl.org/dc/terms/references,organismalTraitObsProperty,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,all,
