@@ -9,7 +9,7 @@ decimalLatitude	http://rs.tdwg.org/dwc/terms/decimalLatitude	organismalTraitObsP
 decimalLongitude	http://rs.tdwg.org/dwc/terms/decimalLongitude	organismalTraitObsProcess	-110W	suggested (need this or locality)	all	
 coordinateUncertaintyInMeters	http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters	organismalTraitObsProcess	buffered a 10degrees or at 20 km		all	
 verbatimLocality	http://rs.tdwg.org/dwc/terms/verbatimLocality	organismalTraitObsProcess	3 miles west of Gainesville or underneath of Guatemala City	suggested (need this or lat/long)	all	
-verbatimEventDate	http://rs.tdwg.org/dwc/terms/verbatimEventDate	organismalTraitObsProcess	"date of collection event, not of measurement; Jun 1847"	required	all	
+verbatimEventDate	http://rs.tdwg.org/dwc/terms/verbatimEventDate	organismalTraitObsProcess	'date of collection event, not of measurement; Jun 1847'	required	all	
 basisOfRecord	http://rs.tdwg.org/dwc/terms/basisOfRecord	vertebrateOrganism	preserved or fossil etc	required/warning	all	"in dwc there is: PreservedSpecimen, FossilSpecimen, and HumanObservation"
 sex	http://rs.tdwg.org/dwc/terms/sex	vertebrateOrganism	M	suggested	all	
 measurementType	http://rs.tdwg.org/dwc/terms/measurementType	scalarMeasurementDatum	controlled vocabulary; tail length	required	all	
