@@ -1,7 +1,7 @@
 ﻿column,uri,entity_alias,example,need,userType,Notes
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,NMNH for the National Museum of Natural History,Required/warning,all,
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,all,
-specimenID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
+organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
 specimenType,,vertebrateOrganism,whole organism; partial organism; single element of an organism (need controlled vocab),required/warning,all,JBD:this is either designated by the pre-processor as a designation for every record in the dataset or we have a mapping file which translates the provided options in the incoming dataset to ontology terms
 aggregatedData,,,Y or N,put into holding tank,all,
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,all,
