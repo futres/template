@@ -3,7 +3,7 @@ institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrga
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,all,
 organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
 preparations,http://rs.tdwg.org/dwc/terms/preparations,vertebrateOrganism,whole organism; partial organism; single element of an organism (need controlled vocab),required/warning,all,JBD:this is either designated by the pre-processor as a designation for every record in the dataset or we have a mapping file which translates the provided options in the incoming dataset to ontology terms
-dataGeneralizations,ttp://rs.tdwg.org/dwc/terms/dataGeneralizations,,Y or N,put into holding tank,all,
+dataGeneralizations,ttp://rs.tdwg.org/dwc/terms/dataGeneralizations,vertebrateOrganism,Y or N,put into holding tank,all,
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,all,
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,organismalTraitObsProcess,45N,suggested (need this or locality),all,
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,organismalTraitObsProcess,-110W,suggested (need this or locality),all,
@@ -25,23 +25,23 @@ chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,organismal
 chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,organismalTraitObsProcess,standard deviation,suggested if do either ChronometricAge,zoarch; paleo,
 lithostratigraphicTerms,urn:lithostratigraphicTerms,organismalTraitObsProcess,Pliocene-Pleistocene,suggested  (or ChronometricAge),paleo,may be easier because then can parse to lower and older intervals
 group,http://rs.tdwg.org/dwc/terms/group,organismalTraitObsProcess,Belly River Group,suggested,paleo,
-groupURI,https://macrostrat.org,,,,,
+groupURI,https://macrostrat.org,organismalTraitObsProcess,,,,
 formation,http://rs.tdwg.org/dwc/terms/formation,organismalTraitObsProcess,Judith River Formation,suggested,paleo,
-formationURI,https://macrostrat.org,,,,,
+formationURI,https://macrostrat.org,organismalTraitObsProcess,,,,
 member,http://rs.tdwg.org/dwc/terms/member,organismalTraitObsProcess,Dinosaur Park member,suggested,paleo,
-memberURI,https://macrostrat.org,,,,,
+memberURI,https://macrostrat.org,organismalTraitObsProcess,,,,
 bed,http://rs.tdwg.org/dwc/terms/bed,organismalTraitObsProcess,Bonebed 50,suggested,paleo,
-bedURI,https://macrostrat.org,,,,,
+bedURI,https://macrostrat.org,organismalTraitObsProcess,,,,
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,organismalTraitObsProcess,Tecal (non modern city),,zoarch; paleo,
-sitenameURI,https://opencontext.org/; https://paleobiodb.org/#/,,,,,
-contextName,http://perio.do/en/,,provenience AG3-4ab,suggested,zooarch,text
-contextNameURI,https://opencontext.org/,,,,,
-culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,,Mesoamerica,suggested,zooarch,text
-culturalRegionURI,,,,,,
-culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,zooarch,text
-cultureNameURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,,,,,
-culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,zooarch,text
-occupationPeriodURI,http://perio.do/en/,,,,,
-culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,zooarch,text
-localChronologyURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,,,,,
+sitenameURI,https://opencontext.org/; https://paleobiodb.org/#/,organismalTraitObsProcess,,,,
+contextName,http://perio.do/en/,organismalTraitObsProcess,provenience AG3-4ab,suggested,zooarch,text
+contextNameURI,https://opencontext.org/,organismalTraitObsProcess,,,,
+culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,organismalTraitObsProcess,Mesoamerica,suggested,zooarch,text
+culturalRegionURI,urn:culturalRegionURI,organismalTraitObsProcess,,,,
+culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,organismalTraitObsProcess,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,zooarch,text
+cultureNameURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,organismalTraitObsProcess,,,,
+culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,organismalTraitObsProcess,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,zooarch,text
+occupationPeriodURI,http://perio.do/en/,organismalTraitObsProcess,,,,
+culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,organismalTraitObsProcess,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,zooarch,text
+localChronologyURI,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/,organismalTraitObsProcess,,,,
 references,http://purl.org/dc/terms/references,organismalTraitObsProperty,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,all,
