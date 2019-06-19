@@ -3,7 +3,7 @@ institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrga
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,all,
 organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,of the physical object,required/warning,all,
 preparations,http://rs.tdwg.org/dwc/terms/preparations,vertebrateOrganism,whole organism; partial organism; single element of an organism (need controlled vocab),required/warning,all,JBD:this is either designated by the pre-processor as a designation for every record in the dataset or we have a mapping file which translates the provided options in the incoming dataset to ontology terms
-aggregatedData,,,Y or N,put into holding tank,all,
+dataGeneralizations,ttp://rs.tdwg.org/dwc/terms/dataGeneralizations,,Y or N,put into holding tank,all,
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,all,
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,organismalTraitObsProcess,45N,suggested (need this or locality),all,
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,organismalTraitObsProcess,-110W,suggested (need this or locality),all,
