@@ -13,6 +13,8 @@ verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,organismalTraitOb
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,organismalTraitObsProcess,"date of collection event, not of measurement; Jun 1847",required,x,x,x,
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,preserved or fossil etc,required/warning,x,x,x,"in dwc there is: PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation"
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,M,suggested,x,x,x,
+ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,
+ageUnit,urn:ageUnit,vertebrateOrganism,6,,x,,,
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,scalarMeasurementDatum,controlled vocabulary; tail length,required,x,x,x,
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,scalarMeasurementDatum,unitless number; 45,required,x,x,x,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,scalarMeasurementDatum,unit; mm,required,x,x,x,
