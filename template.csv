@@ -14,7 +14,7 @@ verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,organismalTrait
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,preserved or fossil etc,required/warning,x,x,x,"in dwc there is: PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation"
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,M,suggested,x,x,x,
 ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,
-ageUnit,urn:ageUnit,vertebrateOrganism,6,,x,,,
+ageUnit,urn:ageUnit,vertebrateOrganism,year,,x,,,use year, month, or day
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,scalarMeasurementDatum,controlled vocabulary; tail length,required,x,x,x,
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,scalarMeasurementDatum,unitless number; 45,required,x,x,x,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,scalarMeasurementDatum,unit; mm,required,x,x,x,
