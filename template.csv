@@ -19,6 +19,7 @@ measurementType,http://rs.tdwg.org/dwc/terms/measurementType,scalarMeasurementDa
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,scalarMeasurementDatum,unitless number; 45,required,x,x,x,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,scalarMeasurementDatum,unit; mm,required,x,x,x,
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,scalarMeasurementDatum,calipers,suggested,x,x,x,
+measurementSide,urn:measurementSide,left,,,,,use left or right
 minimumChronometricAge,urn:minimumChronometricAge,organismalTraitObsProcess,14,"suggested (need this, lithostratigaphicTerms, or collectionDate)",,x,x,
 minimumChronometricAgeReferenceSystem,urn:minimumChronometricAgeReferenceSystem,organismalTraitObsProcess,mya,needed if do minimumChronometricAge,,x,x,
 maximumChronometricAge,urn:maximumChronometricAge,organismalTraitObsProcess,23,suggest (or Lithostratigraphic Terms),,x,x,
