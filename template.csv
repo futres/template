@@ -28,7 +28,7 @@ maximumChronometricAgeReferenceSystem,urn:maximumChronometricAgeReferenceSystem,
 chronometricAgeProtocol,urn:chronometricAgeProtocol,vertebrateTraitObsProc,radiocarbon or relative,needed if do ChronometricAge,,x,x,,
 chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,fairbanks 2007,suggested if do either ChronometricAge,,x,x,,
 chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either ChronometricAge,,x,x,,
-lithostratigraphicTerms,urn:lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested  (or ChronometricAge),,,x,,may be easier because then can parse to lower and older intervals
+lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested  (or ChronometricAge),,,x,,may be easier because then can parse to lower and older intervals
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,,x,,
 groupURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,,x,,
@@ -37,7 +37,7 @@ member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,Dinosaur Park 
 memberURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,,x,,
 bedURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
-sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non modern city),,,x,x,,
+sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
 sitenameURI,https://opencontext.org/; https://paleobiodb.org/#/,vertebrateTraitObsProc,,,,x,x,,
 contextName,http://perio.do/en/,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,text
 contextNameURI,https://opencontext.org/,vertebrateTraitObsProc,,,,,x,,
