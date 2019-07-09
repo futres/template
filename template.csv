@@ -25,7 +25,7 @@ measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatu
 measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left,right",
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
 minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,"20, 150",suggested (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
+maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,"20; 150",suggested (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
 maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in maximumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeProtocol,vertebrateTraitObsProc,"radiocarbon; ceramic analysis",needed if there are values in chronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 chronometricAgeUncertaintyMethod,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,Fairbanks 2007,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
