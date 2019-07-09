@@ -22,7 +22,7 @@ measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,co
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,unitless number; 45,required,x,x,x,,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,calipers,suggested,x,x,x,,
-measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left,right",
+measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left, right",
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
 minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,"20; 150",suggested (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
