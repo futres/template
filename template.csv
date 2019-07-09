@@ -32,16 +32,16 @@ chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,vertebrate
 chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either ChronometricAge,,x,x,,
 lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or ChronometricAge),,,x,,
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,,x,,
-groupURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
+groupURI,http://rs.tdwg.org/dwc/iri/group/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,,x,,
-formationURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
+formationURI,http://rs.tdwg.org/dwc/iri/formation/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,Dinosaur Park member,suggested,,,x,,
-memberURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
+memberURI,http://rs.tdwg.org/dwc/iri/member/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,,x,,
-bedURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
+bedURI,http://rs.tdwg.org/dwc/iri/bed/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
-sitenameURI,,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
-contextName,,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
+sitenameURI,urn:siteNameURI,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
+contextName,urn:contextName,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
 contextNameURI,urn:contextNameURI,vertebrateTraitObsProc,,,,,x,,https://opencontext.org/
 culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,
 culturalRegionURI,urn:culturalRegionURI,vertebrateTraitObsProc,,,,,x,,
