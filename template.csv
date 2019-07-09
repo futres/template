@@ -9,6 +9,8 @@ scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Ne
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,45N,suggested (need this or locality),x,x,x,,
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,-110W,suggested (need this or locality),x,x,x,,
 coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,buffered a 10degrees or at 20 km,,x,x,x,,
+minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,200m,suggested,x,,,,
+maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,,,,,
 verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,"date of collection event, not of measurement; Jun 1847",required,x,x,x,,
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the obsering process or location. Can include quarry here.,,x,x,x,,
@@ -38,17 +40,15 @@ memberURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,,x,,
 bedURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
-sitenameURI,https://opencontext.org/; https://paleobiodb.org/#/,vertebrateTraitObsProc,,,,x,x,,
+sitenameURI,,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
 contextName,,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
 contextNameURI,urn:contextNameURI,vertebrateTraitObsProc,,,,,x,,https://opencontext.org/
 culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,text
 culturalRegionURI,urn:culturalRegionURI,vertebrateTraitObsProc,,,,,x,,
 culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitObsProc,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,,,x,,text
-cultureNameURI,urn:cultureNameURI; http://perio.do/en/,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826
+cultureNameURI,urn:cultureNameURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
 culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,,,x,,text
 occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http://perio.do/en/
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,text
-localChronologyURI,urn:localChronologyURI; http://perio.do/en/,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826
+localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,,,x,,
-minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,200m,suggested,x,,,,
-maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,,,,,
