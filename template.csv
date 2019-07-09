@@ -34,7 +34,7 @@ groupURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,,x,,
 formationURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
 member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,Dinosaur Park member,suggested,,,x,,
-memberURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
+memberURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,,x,,
 bedURI,https://macrostrat.org,vertebrateTraitObsProc,,,,,x,,
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
