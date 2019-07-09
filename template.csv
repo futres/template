@@ -41,7 +41,7 @@ bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested
 bedURI,http://rs.tdwg.org/dwc/iri/bed/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
 sitenameURI,urn:siteNameURI,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
-contextName,urn:contextName,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
+contextName,urn:contextName,vertebrateTraitObsProc,"Test Unit: TU 14; Level: G",suggested,,,x,,http://perio.do/en/
 contextNameURI,urn:contextNameURI,vertebrateTraitObsProc,,,,,x,,https://opencontext.org/
 culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,
 culturalRegionURI,urn:culturalRegionURI,vertebrateTraitObsProc,,,,,x,,
