@@ -38,7 +38,7 @@ formationURI,http://rs.tdwg.org/dwc/iri/formation/,vertebrateTraitObsProc,,,,x,,
 member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,Dinosaur Park member,suggested,,x,,,
 memberURI,http://rs.tdwg.org/dwc/iri/member/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,x,,,
-bedURI,http://rs.tdwg.org/dwc/iri/bed/,vertebrateTraitObsProc,,,,x,x,,https://macrostrat.org
+bedURI,http://rs.tdwg.org/dwc/iri/bed/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
 sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
 sitenameURI,urn:siteNameURI,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
 contextName,urn:contextName,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
