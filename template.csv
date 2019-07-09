@@ -30,7 +30,7 @@ maximumChronometricAgeReferenceSystem,urn:maximumChronometricAgeReferenceSystem,
 chronometricAgeProtocol,urn:chronometricAgeProtocol,vertebrateTraitObsProc,radiocarbon or relative,needed if do ChronometricAge,,x,x,,
 chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,fairbanks 2007,suggested if do either ChronometricAge,,x,x,,
 chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either ChronometricAge,,x,x,,
-lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested  (or ChronometricAge),,,x,,may be easier because then can parse to lower and older intervals
+lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or ChronometricAge),,,x,,
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,,x,,
 groupURI,,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,,x,,
@@ -43,12 +43,12 @@ sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tec
 sitenameURI,,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
 contextName,,vertebrateTraitObsProc,provenience AG3-4ab,suggested,,,x,,http://perio.do/en/
 contextNameURI,urn:contextNameURI,vertebrateTraitObsProc,,,,,x,,https://opencontext.org/
-culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,text
+culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,
 culturalRegionURI,urn:culturalRegionURI,vertebrateTraitObsProc,,,,,x,,
-culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitObsProc,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,,,x,,text
+culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitObsProc,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,,,x,,
 cultureNameURI,urn:cultureNameURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
-culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,,,x,,text
+culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,,,x,,
 occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http://perio.do/en/
-culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,text
+culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,
 localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
-references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,,,x,,
+references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,,x,x,x,
