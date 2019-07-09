@@ -10,7 +10,7 @@ decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsP
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,-110W,suggested (need this or locality),x,x,x,,
 coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,buffered a 10degrees or at 20 km,,x,x,x,,
 minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,200m,suggested,x,x,x,,
-maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,x,x,x,,
+maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,x,x,x,,
 verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,"date of collection event, not of measurement; Jun 1847",required,x,x,x,,
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the obsering process or location. Can include quarry here.,,x,x,x,,
