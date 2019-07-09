@@ -23,13 +23,13 @@ measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,calipers,suggested,x,x,x,,
 measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left,right",
-minimumChronometricAge,urn:minimumChronometricAge,vertebrateTraitObsProc,14,"suggested (need this, lithostratigaphicTerms, or collectionDate)",,x,x,,
-minimumChronometricAgeReferenceSystem,urn:minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if do minimumChronometricAge,,x,x,,
-maximumChronometricAge,urn:maximumChronometricAge,vertebrateTraitObsProc,23,suggest (or Lithostratigraphic Terms),,x,x,,
-maximumChronometricAgeReferenceSystem,urn:maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if do maximumChronometricAge,,x,x,,
-chronometricAgeProtocol,urn:chronometricAgeProtocol,vertebrateTraitObsProc,radiocarbon or relative,needed if do ChronometricAge,,x,x,,
-chronometricAgeUncertaintyMethod,urn:chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,fairbanks 2007,suggested if do either ChronometricAge,,x,x,,
-chronometricAgeUncertaintyInYears,urn:chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either ChronometricAge,,x,x,,
+minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,14,"suggested (need this, lithostratigaphicTerms, or collectionDate)",,x,x,,https://github.com/VertNet/dwc-chronology
+minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,23,suggest (or Lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
+maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if there is a value in maximumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeProtocol,vertebrateTraitObsProc,radiocarbon or relative,needed if do ChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+chronometricAgeUncertaintyMethod,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,fairbanks 2007,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or ChronometricAge),,,x,,
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,,x,,
 groupURI,http://rs.tdwg.org/dwc/iri/group/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
