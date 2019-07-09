@@ -13,7 +13,7 @@ minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,v
 maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,x,x,x,,
 verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,"date of collection event, not of measurement; Jun 1847",required,x,x,x,,
-eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the obsering process or location. Can include quarry here.,,x,x,x,,
+eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the observing process or location. Can include quarry here.,,x,x,x,,
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,PreservedSpecimen,required/warning,x,x,x,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,M,suggested,x,x,x,,
 ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,,
@@ -23,14 +23,14 @@ measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,calipers,suggested,x,x,x,,
 measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left,right",
-minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,14,"suggested (need this, lithostratigaphicTerms, or collectionDate)",,x,x,,https://github.com/VertNet/dwc-chronology
-minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,23,suggest (or Lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
-maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,mya,needed if there is a value in maximumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeProtocol,vertebrateTraitObsProc,radiocarbon or relative,needed if do ChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-chronometricAgeUncertaintyMethod,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,fairbanks 2007,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,14,suggested,,x,x,,https://github.com/VertNet/dwc-chronology
+minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya, B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,23,suggest (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
+maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya, B.C.E.",needed if there is a value in maximumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeProtocol,vertebrateTraitObsProc,"radiocarbon; ceramic analysis",needed if there are values in chronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
+chronometricAgeUncertaintyMethod,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,Fairbanks 2007,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or ChronometricAge),,,x,,
+lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or chronometricAge),,,x,,
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,,x,,
 groupURI,http://rs.tdwg.org/dwc/iri/group/,vertebrateTraitObsProc,,,,,x,,https://macrostrat.org
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,,x,,
