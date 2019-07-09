@@ -17,7 +17,7 @@ eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,Fo
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,preserved or fossil etc,required/warning,x,x,x,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,M,suggested,x,x,x,,
 ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,,
-ageUnit,urn:ageUnit,vertebrateOrganism,year,,x,,,"year,month,day",
+ageUnit,urn:ageUnit,vertebrateOrganism,years,,x,,,"years, months, days",
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,controlled vocabulary; tail length,required,x,x,x,,
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,unitless number; 45,required,x,x,x,,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
@@ -51,4 +51,4 @@ culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,ve
 occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http://perio.do/en/
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,
 localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
-references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,,x,x,x,
+references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,x,x,x,,
