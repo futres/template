@@ -16,6 +16,7 @@ verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTrait
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the observing process or location. Can include quarry here.,,x,x,x,,
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,PreservedSpecimen,required/warning,x,x,x,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,male,suggested,x,x,x,,
+lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,juvenile,suggested,x,x,x,,
 ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,,
 ageUnit,urn:ageUnit,vertebrateOrganism,years,,x,,,"years, months, days",
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,controlled vocabulary; tail length,required,x,x,x,,
@@ -23,6 +24,8 @@ measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,calipers,suggested,x,x,x,,
 measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left, right",
+GeologicContext,http://rs.tdwg.org/dwc/terms/GeologicalContext,vertebrateTraitObsProc,Quarry,suggested,,x,x,,
+GeologicContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,"name of quarry",,x,x,,
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
 minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
 maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,"20; 150",suggested (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
