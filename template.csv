@@ -30,7 +30,7 @@ measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatu
 measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left, right",
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,,,,,,,,
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,,,,,,,,
-measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,,suggested,x,x,x,,
+measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,,,suggested,x,x,x,,
 geologicalContext,http://rs.tdwg.org/dwc/terms/GeologicalContext,vertebrateTraitObsProc,Quarry,suggested,,x,x,,
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,,suggested,,x,x,,
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
