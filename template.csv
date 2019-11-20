@@ -6,7 +6,7 @@ institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrga
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,x,x,x,,
 catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,12345,,x,x,x,,
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,x,x,x,,
-fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,,suggested,x,x,x,,
+fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,,suggested,x,x,x,,,
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,45N,suggested (need this or locality),x,x,x,,
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,-110W,suggested (need this or locality),x,x,x,,
 coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,buffered a 10degrees or at 20 km,,x,x,x,,
