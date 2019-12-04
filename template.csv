@@ -16,7 +16,7 @@ maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,v
 verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,"date of collection event, not of measurement; Jun 1847",required,x,x,x,,
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the observing process or location. Can include quarry here.,,x,x,x,,
-samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,,,suggested,x,x,x,,
+samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,,free text,suggested,x,x,x,,
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,PreservedSpecimen,required/warning,x,x,x,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,male,suggested,x,x,x,,
 lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,juvenile,suggested,x,x,x,,
@@ -31,6 +31,7 @@ measurementSide,urn:measurementSide,measurementDatum,left,,x,x,x,"left, right",
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,,,,,,,,
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,,,,,,,,
 measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,,,suggested,x,x,x,,
+skeletalElementCondition,,urn:skeletalElementCondition,,"broken, complete",,,,,,,
 geologicalContext,http://rs.tdwg.org/dwc/terms/GeologicalContext,vertebrateTraitObsProc,Quarry,suggested,,x,x,,
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,,suggested,,x,x,,
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
@@ -62,3 +63,4 @@ occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http:/
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,
 localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,x,x,x,,
+dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,,jsons scipt,,x,x,x,,,
