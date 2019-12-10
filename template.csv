@@ -39,7 +39,7 @@ measurementSide,urn:measurementSide,measurementDatum,left,measurementDatum,x,x,x
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measurementDatum,,,x,x,x,,
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,,,x,x,x,,
 measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,measurementDatum,,suggested,x,x,x,,
-skeletalElementCondition,urn:skeletalElementCondition,,"broken, complete",,x,x,x,,
+skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,"broken, complete",,x,x,x,,
 geologicalContext,http://rs.tdwg.org/dwc/terms/GeologicalContext,vertebrateTraitObsProc,Quarry,suggested,,x,x,,
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,,suggested,,x,x,,
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
