@@ -71,5 +71,5 @@ occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http:/
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,
 localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,x,x,x,,
-dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,,jsons scipt,,x,x,x,,,
+dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,,jsons scipt,,x,x,x,,
 
