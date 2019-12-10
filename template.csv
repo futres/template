@@ -1,6 +1,6 @@
 column,uri,entity_alias,example,need,neo,paleo,zooarch,CV,Notes
 materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,,required,x,x,x,,
-individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual,required/warning,x,x,x,,
+organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,identifier of a distinct individual,required/warning,x,x,x,,
 collectionOfOrganismsID,urn:collectionOfOrganismsID,http://purl.obolibrary.org/obo/PCO_0000000,identifier for the collection of Organisms referred to,required/warning,x,x,x,,
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,NMNH for the National Museum of Natural History,required/warning,x,x,x,,
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,x,x,x,,
