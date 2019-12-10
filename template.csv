@@ -16,7 +16,7 @@ maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,v
 verbatimElevation,http://rs.tdwg.org/dwc/terms/verbatimElevation,vertebrateTraitObsProc,100-200m,suggested,x,x,x,,
 verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
 country,http://rs.tdwg.org/dwc/terms/county,vertebrateTraitObsProc,USA,,x,x,x,,
-stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,,Montana,vertebrateTraitObsProc,x,x,x,,
+stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,vertebrateTraitObsProc,Montana,vertebrateTraitObsProc,x,x,x,,
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,,suggested,x,x,x,,
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,,suggested,x,x,x,,
 verbatimLatitude,http://rs.tdwg.org/dwc/terms/verbatimLatitude,vertebrateTraitObsProc,,suggested,x,x,x,,
