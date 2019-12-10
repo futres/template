@@ -40,7 +40,6 @@ measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measuremen
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,,,x,x,x,,
 measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,measurementDatum,,suggested,x,x,x,,
 skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,"broken, complete",,x,x,x,,
-geologicalContext,http://rs.tdwg.org/dwc/terms/GeologicalContext,vertebrateTraitObsProc,Quarry,suggested,,x,x,,
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,,suggested,,x,x,,
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
 minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
