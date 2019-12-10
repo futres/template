@@ -30,7 +30,7 @@ lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,juvenile,sug
 ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,,
 ageUnit,urn:ageUnit,vertebrateOrganism,years,,x,,,"years, months, days",
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,,,x,,,estimation method,
-reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,,,suggested,x,,,,
+reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,,suggested,x,,,,
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,controlled vocabulary; tail length,required,x,x,x,,
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,unitless number; 45,required,x,x,x,,
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
