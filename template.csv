@@ -1,74 +1,60 @@
-column,uri,entity_alias,example,need,neo,paleo,zooarch,CV,Notes
-materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,,required,x,x,x,,
-organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,if in previous dataset already,suggested,x,x,x,,
-individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual,required/warning,x,x,x,,
-collectionOfOrganismsID,urn:collectionOfOrganismsID,http://purl.obolibrary.org/obo/PCO_0000000,identifier for the collection of Organisms referred to,required/warning,x,x,x,,
-institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,NMNH for the National Museum of Natural History,required/warning,x,x,x,,
-collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,PAL for Department of Paleontology,required/warning,x,x,x,,
-catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,12345,,x,x,x,,
-scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,Neotoma cinerea; at any taxonomic level,required,x,x,x,,
-fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,,suggested,x,x,x,,
-decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,45N,suggested (need this or locality),x,x,x,,
-decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,-110W,suggested (need this or locality),x,x,x,,
-coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,buffered a 10degrees or at 20 km,,x,x,x,,
-minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,200m,suggested,x,x,x,,
-maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,vertebrateTraitObsProc,2000m,suggested,x,x,x,,
-verbatimElevation,http://rs.tdwg.org/dwc/terms/verbatimElevation,vertebrateTraitObsProc,100-200m,suggested,x,x,x,,
-verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,3 miles west of Gainesville or underneath of Guatemala City,suggested (need this or lat/long),x,x,x,,
-country,http://rs.tdwg.org/dwc/terms/county,vertebrateTraitObsProc,USA,,x,x,x,,
-stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,vertebrateTraitObsProc,Montana,vertebrateTraitObsProc,x,x,x,,
-decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,,suggested,x,x,x,,
-decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,,suggested,x,x,x,,
-verbatimLatitude,http://rs.tdwg.org/dwc/terms/verbatimLatitude,vertebrateTraitObsProc,,suggested,x,x,x,,
-verbatimLongitude,http://rs.tdwg.org/dwc/terms/verbatimLongitude,vertebrateTraitObsProc,,suggested,x,x,x,,
-verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,"date of collection event, not of measurement; Jun 1847",required,x,x,x,,
-eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,For additional remarks about the observing process or location. Can include quarry here.,,x,x,x,,
-samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,,free text,suggested,x,x,x,,
-basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,PreservedSpecimen,required/warning,x,x,x,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",
-sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,male,suggested,x,x,x,,
-lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,juvenile,suggested,x,x,x,,
-ageValue,urn:ageValue,vertebrateOrganism,6,,x,,,,
-ageUnit,urn:ageUnit,vertebrateOrganism,years,,x,,,"years, months, days",
-ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,,,x,,,estimation method,
-reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,,suggested,x,,,,
-measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,controlled vocabulary; tail length,required,x,x,x,,
-measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,unitless number; 45,required,x,x,x,,
-measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit; mm,required,x,x,x,,
-measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,calipers,suggested,x,x,x,,
-measurementSide,urn:measurementSide,measurementDatum,left,measurementDatum,x,x,x,"left, right",
-measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measurementDatum,,,x,x,x,,
-measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,,,x,x,x,,
-measurementDeterminedBy,http://rs.tdwg.org/dwc/iri/measurementDeterminedBy,measurementDatum,,suggested,x,x,x,,
-skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,"broken, complete",,x,x,x,,
-geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,,suggested,,x,x,,
-minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,"14; 300",suggested,,x,x,,https://github.com/VertNet/dwc-chronology
-minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,"20; 150",suggested (or lithostratigraphic Terms),,x,x,,https://github.com/VertNet/dwc-chronology
-maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,"mya; B.C.E.",needed if there is a value in maximumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeProtocol,vertebrateTraitObsProc,"radiocarbon; ceramic analysis",needed if there are values in chronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-chronometricAgeUncertaintyMethod,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,Fairbanks 2007,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation,suggested if do either maximum or minimumChronometricAge,,x,x,,https://github.com/VertNet/dwc-chronology
-lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,Pliocene-Pleistocene,suggested (or chronometricAge),,,x,,
-group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,Belly River Group,suggested,,x,,,
-groupURI,http://rs.tdwg.org/dwc/iri/group/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
-formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,Judith River Formation,suggested,,x,,,
-formationURI,http://rs.tdwg.org/dwc/iri/formation/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
-member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,Dinosaur Park member,suggested,,x,,,
-memberURI,http://rs.tdwg.org/dwc/iri/member/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
-bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,Bonebed 50,suggested,,x,,,
-bedURI,http://rs.tdwg.org/dwc/iri/bed/,vertebrateTraitObsProc,,,,x,,,https://macrostrat.org
-sitename,http://rs.tdwg.org/dwc/terms/locationRemarks,vertebrateTraitObsProc,Tecal (non-modern city),,,x,x,,
-sitenameURI,urn:siteNameURI,vertebrateTraitObsProc,,,,x,x,,https://opencontext.org/; https://paleobiodb.org/#/
-contextName,urn:contextName,vertebrateTraitObsProc,"Test Unit: TU 14; Level: G",suggested,,,x,,http://perio.do/en/
-contextNameURI,urn:contextNameURI,vertebrateTraitObsProc,,,,,x,,https://opencontext.org/
-culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,Mesoamerica,suggested,,,x,,
-culturalRegionURI,urn:culturalRegionURI,vertebrateTraitObsProc,,,,,x,,
-culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitObsProc,Maya [http://vocab.getty.edu/page/aat/300017826],suggested,,,x,,
-cultureNameURI,urn:cultureNameURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
-culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],suggested,,,x,,
-occupationPeriodURI,urn:occupationPeriodURI,vertebrateTraitObsProc,,,,,x,,http://perio.do/en/
-culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,Tepeu [http://vocab.getty.edu/page/aat/300017108],suggested,,,x,,
-localChronologyURI,urn:localChronologyURI,vertebrateTraitObsProc,,,,,x,,http://vocab.getty.edu/page/aat/300017826; http://perio.do/en/
-references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource; Journal of Vertebrate Paleontology citation format,required,x,x,x,,
-dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,,jsons scipt,,x,x,x,,
+column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
+materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,identifier for the materialSample that is globally unique,string,UUID,,required,x,x,x
+organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,refers to a lot or single specimen or a single indvidual of the same taxon,string,UUID perhaps in a previous dataset,,suggested,x,x,x,
+individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual (e.g. single bone within an associated skeleton),string, UUID or we will provide one,,suggested,x,x,x,
+institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,code or abbreviation for the institution or museum,string,NMNH for the National Museum of Natural History,,required,x,x,x
+collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,code or abbreviation for the collection within the museum,string,PAL for Department of Paleontology,,required,x,x,x
+catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,number assigned to the specimen by the institution or museum,numerical,12345,required,,x,x,x
+scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,lowest taxnomic indentification for a specimen,string,Neotoma cinerea,,required,x,x,x
+fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,num,ber assigned to the field site or lot,string,F-123,,suggested,x,x,x
+decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,latitude in decimal degrees between -90 and 90,numerical,45.00,,suggested (need this or locality),x,x,x
+decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,longitude in decimal degrees between -180 and 180,numerical,-110.00,,suggested (need this or locality),x,x,x
+coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,horizontal distance in meters from the decimalLatidue and decimalLongitude,string,numerical,30,,suggested,x,x,x
+verbatimLatitude,http://rs.tdwg.org/dwc/terms/verbatimLatitude,vertebrateTraitObsProc,original latitude of site,string,10.11 NAD27,string,,suggested,x,x,x
+verbatimLongitude,http://rs.tdwg.org/dwc/terms/verbatimLongitude,vertebrateTraitObsProc,original longitude of site,string, 100.11 NAD27,string,,suggested,x,x,x
+minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,lower limit of elevation (above sea level) in meters (same as maximum if it is a single point value),numerical,200m,,suggested,x,x,x
+maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,vertebrateTraitObsProc,upper limit of elevation (above sea level) in meters (same as minimum if it is a single point value),numerical,200m,,suggested,x,x,x
+verbatimElevation,http://rs.tdwg.org/dwc/terms/verbatimElevation,vertebrateTraitObsProc,,original description of elevation,100-200m,,suggested,x,x,x
+locality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,description of site,string,Tecal or Quarry 4,,suggested,x,x,x
+verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitObsProc,original description of site,string,3 miles west of Gainesville or underneath of Guatemala City,,suggested (need this or lat/long),x,x,x
+country,http://rs.tdwg.org/dwc/terms/county,vertebrateTraitObsProc,country of observation or collection,string,USA,,suggested,x,x,x
+stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,vertebrateTraitObsProc,state of porvince of observation or collection,string,Montana,,suggested,x,x,x
+verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,original date and time of observation or collection,string,"date of collection event, not of measurement; Jun 1847",,required,x,x,x
+eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,Comments about observation or collection event,string,collected after heavy rains,,suggested,x,x,x
+samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsProc,description or reference to method of trait measurement,string,see Von Der Dreish,,suggested,x,x,x
+basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,Condition of the specimen for trait measurement,string,,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",required,x,x,x
+sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,sex of the individual being measured,string,,"female, male, hermaphrodite",suggested,x,x,x
+lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,Age class or life stage of the individual being measured,string,,"juvenile, subadult, adult, reproductive",suggested,x,x,x
+reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,reproductive condition of the individual at time of measurement,string,,"non-reproductive, pregnant",suggested,x,,,,
+ageValue,urn:ageValue,vertebrateOrganism,"numerical value indicating how old in hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations).",numerical,6,,suggested,x,,
+ageUnit,urn:ageUnit,vertebrateOrganism,"unit for the ageValue in hour, day, week, month, or year",string,,"hour, day, week, month, year",,required if have ageValue,x,,
+ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,free text field for description of method for determining ageValue,string,counted rings tusk,,required if have ageValue,x,,
+measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,trait and anatomical or physiological feature being measured,string,,CV from list of traits,required,x,x,x
+measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,value of measurement,numerical,45,,required,x,x,x,
+measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit for the measurementValue,string,mm,,required,x,x,x
+measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,description of method used for measurement,string,used calipers to measurementType,,suggested,x,x,x
+measurementMethodURI,urn:measurementMethodURI,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
+measurementSide,urn:measurementSide,measurementDatum,side of individual the measurement was taken,string,,"left,right",suggested,x,x,x
+measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measurementDatum,name of measurer,string,"MABalk",,suggested,x,x,x
+measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
+skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"broken, complete",,suggested,x,x,x
+geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
+minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,lower limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"14",,suggested,,x,x
+minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,units for the minimumChronometricAge,string,"mya; B.C.E.",,required if there is a value in minimumChronometricAge,,x,x
+maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,upper limit of the age of the specimen determined by some 
+maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,units for the maximumChronometricAge,string,"mya; B.C.E.",,needed if there is a value in maximumChronometricAge,,x,x
+chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,free text or reference to dating method for minimum and maximum chronomtericAge,string,Fairbanks 2007,,suggested if do either maximum or minimum chronometricAge,string,,x,x
+chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation of dating method,numerical,100,,suggested if do either maximum or minimum ChronometricAge,,x,x
+lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,lPliocene-Pleistocene,suggested (or chronometricAge),,,x
+group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,name of the lithographic group from which the specimen was collected,string,Belly River Group,,suggested,,,x
+formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,name of the lithographic formation from which the specimen was collected,string,Judith River Formation,suggested,,,x
+member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,name of the lithographic member from which the specimen was collected,string,Dinosaur Park member,,suggested,,,x
+bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,name of the lithographic bed from which the specimen was collected,string,Bonebed 50,,suggested,,,x
+contextName,urn:contextName,vertebrateTraitObsProc,level of excavation for the specimen,stirng,"Test Unit: TU 14; Level: G",,suggested,,x,
+culturalStratigraphyCulturalRegion,urn:culturalStratigraphyCulturalRegion,vertebrateTraitObsProc,name of the region of excation,string,Mesoamerica,,suggested,,x,
+culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitObsProc,name of cultural setting,string or URI,Maya [http://vocab.getty.edu/page/aat/300017826],,suggested,,x,
+culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,name of cultural time period,string or URI,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],,suggested,,x,
+culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,local cultural period,string or URI,Tepeu [http://vocab.getty.edu/page/aat/300017108],,suggested,,x,
+references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource,string or DOI,Journal of Vertebrate Paleontology citation format,,required,x,x,x
+dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,place for notes related to observation event,jsons scipt,,not required,x,x,x
 
