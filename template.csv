@@ -1,7 +1,7 @@
 column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
 materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,identifier for the materialSample that is globally unique,string,UUID,,required,x,x,x
-organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,refers to a lot or single specimen or a single indvidual of the same taxon,string,UUID perhaps in a previous dataset,,suggested,x,x,x,
-individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual (e.g. single bone within an associated skeleton),string, UUID or we will provide one,,suggested,x,x,x,
+organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,refers to a lot or single specimen or a single indvidual of the same taxon,string,UUID perhaps in a previous dataset,,suggested,x,x,x
+individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual (e.g. single bone within an associated skeleton),string, UUID or we will provide one,,suggested,x,x,x
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,code or abbreviation for the institution or museum,string,NMNH for the National Museum of Natural History,,required,x,x,x
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,code or abbreviation for the collection within the museum,string,PAL for Department of Paleontology,,required,x,x,x
 catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,number assigned to the specimen by the institution or museum,numerical,12345,required,,x,x,x
@@ -25,12 +25,12 @@ samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsP
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,Condition of the specimen for trait measurement,string,,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",required,x,x,x
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,sex of the individual being measured,string,,"female, male, hermaphrodite",suggested,x,x,x
 lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,Age class or life stage of the individual being measured,string,,"juvenile, subadult, adult, reproductive",suggested,x,x,x
-reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,reproductive condition of the individual at time of measurement,string,,"non-reproductive, pregnant",suggested,x,,,,
+reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,reproductive condition of the individual at time of measurement,string,,"non-reproductive, pregnant",suggested,x,,
 ageValue,urn:ageValue,vertebrateOrganism,"numerical value indicating how old in hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations).",numerical,6,,suggested,x,,
 ageUnit,urn:ageUnit,vertebrateOrganism,"unit for the ageValue in hour, day, week, month, or year",string,,"hour, day, week, month, year",,required if have ageValue,x,,
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,free text field for description of method for determining ageValue,string,counted rings tusk,,required if have ageValue,x,,
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,trait and anatomical or physiological feature being measured,string,,CV from list of traits,required,x,x,x
-measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,value of measurement,numerical,45,,required,x,x,x,
+measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,value of measurement,numerical,45,,required,x,x,x
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit for the measurementValue,string,mm,,required,x,x,x
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,description of method used for measurement,string,used calipers to measurementType,,suggested,x,x,x
 measurementMethodURI,urn:measurementMethodURI,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
@@ -41,7 +41,7 @@ skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,con
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,lower limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"14",,suggested,,x,x
 minimumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/minimumChronometricAgeReferenceSystem,vertebrateTraitObsProc,units for the minimumChronometricAge,string,"mya; B.C.E.",,required if there is a value in minimumChronometricAge,,x,x
-maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,upper limit of the age of the specimen determined by some 
+maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,vertebrateTraitObsProc,upper limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"20",,suggested,,x,x
 maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,units for the maximumChronometricAge,string,"mya; B.C.E.",,needed if there is a value in maximumChronometricAge,,x,x
 chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,free text or reference to dating method for minimum and maximum chronomtericAge,string,Fairbanks 2007,,suggested if do either maximum or minimum chronometricAge,string,,x,x
 chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation of dating method,numerical,100,,suggested if do either maximum or minimum ChronometricAge,,x,x
