@@ -32,8 +32,8 @@ ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,free text field f
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,trait and anatomical or physiological feature being measured,string,,CV from list of traits,required,x,x,x
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,value of measurement,numerical,45,,required,x,x,x
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,unit for the measurementValue,string,mm,,required,x,x,x
-measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,description of method used for measurement,string,used calipers to measurementType,,suggested,x,x,x
-measurementMethodURI,urn:measurementMethodURI,,measurementDatum,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
+measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,description of method used for measurement,string,used calipers for measurementType,,suggested,x,x,x
+measurementMethodURI,urn:measurementMethodURI,measurementDatum,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,side of individual the measurement was taken,string,,"left,right",suggested,x,x,x
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measurementDatum,name of measurer,string,"MABalk",,suggested,x,x,x
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
