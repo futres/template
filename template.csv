@@ -47,7 +47,7 @@ chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeUncertain
 chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation of dating method,numerical,100,,suggested if do either maximum or minimum ChronometricAge,,x,x
 lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,name of the lowest hierarchical geologic stratigraphy for where the specimen was collected,string,Pliocene-Pleistocene,,suggested (or chronometricAge),,,x
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,name of the lithographic group from which the specimen was collected,string,Belly River Group,,suggested,,,x
-formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,name of the lithographic formation from which the specimen was collected,string,Judith River Formation,suggested,,,x
+formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,name of the lithographic formation from which the specimen was collected,string,Judith River Formation,,suggested,,,x
 member,http://rs.tdwg.org/dwc/terms/member,vertebrateTraitObsProc,name of the lithographic member from which the specimen was collected,string,Dinosaur Park member,,suggested,,,x
 bed,http://rs.tdwg.org/dwc/terms/bed,vertebrateTraitObsProc,name of the lithographic bed from which the specimen was collected,string,Bonebed 50,,suggested,,,x
 contextName,urn:contextName,vertebrateTraitObsProc,level of excavation for the specimen,stirng,"Test Unit: TU 14; Level: G",,suggested,,x,
