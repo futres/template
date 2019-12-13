@@ -27,7 +27,7 @@ sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,sex of the individual be
 lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,Age class or life stage of the individual being measured,string,,"juvenile, subadult, adult, reproductive",suggested,x,x,x
 reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,reproductive condition of the individual at time of measurement,string,,"non-reproductive, pregnant",suggested,x,,
 ageValue,urn:ageValue,vertebrateOrganism,"numerical value indicating how old in hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations).",numerical,6,,suggested,x,,
-ageUnit,urn:ageUnit,vertebrateOrganism,"unit for the ageValue in hour, day, week, month, or year",string,,"hour, day, week, month, year",,required if have ageValue,x,,
+ageUnit,urn:ageUnit,vertebrateOrganism,"unit for the ageValue in hour, day, week, month, or year",string,,"hour, day, week, month, year",required if have ageValue,x,,
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,free text field for description of method for determining ageValue,string,counted rings tusk,,required if have ageValue,x,,
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,trait and anatomical or physiological feature being measured,string,,CV from list of traits,required,x,x,x
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,value of measurement,numerical,45,,required,x,x,x
