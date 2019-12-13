@@ -56,5 +56,5 @@ culturalStratigraphyCultureName,urn:culturalStratigraphyCulture,vertebrateTraitO
 culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,vertebrateTraitObsProc,name of cultural time period,string or URI,Late Classic [http://n2t.net/ark:/99152/p064v7m9xx2],,suggested,,x,
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,local cultural period,string or URI,Tepeu [http://vocab.getty.edu/page/aat/300017108],,suggested,,x,
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource,string or DOI,Journal of Vertebrate Paleontology citation format,,required,x,x,x
-dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,place for notes related to observation event,jsons scipt,,not required,x,x,x
+dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTraitObsProc,place for notes related to observation event,jsons scipt,,,not required,x,x,x
 
