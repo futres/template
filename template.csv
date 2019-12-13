@@ -10,8 +10,8 @@ fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,number
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,latitude in decimal degrees between -90 and 90,numerical,45.00,,suggested (need this or locality),x,x,x
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,longitude in decimal degrees between -180 and 180,numerical,-110.00,,suggested (need this or locality),x,x,x
 coordinateUncertaintyInMeters,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,vertebrateTraitObsProc,horizontal distance in meters from the decimalLatidue and decimalLongitude,numerical,30,,suggested,x,x,x
-verbatimLatitude,http://rs.tdwg.org/dwc/terms/verbatimLatitude,vertebrateTraitObsProc,original latitude of site,string,10.11 NAD27,string,,suggested,x,x,x
-verbatimLongitude,http://rs.tdwg.org/dwc/terms/verbatimLongitude,vertebrateTraitObsProc,original longitude of site,string, 100.11 NAD27,string,,suggested,x,x,x
+verbatimLatitude,http://rs.tdwg.org/dwc/terms/verbatimLatitude,vertebrateTraitObsProc,original latitude of site,string,10.11 NAD27,,suggested,x,x,x
+verbatimLongitude,http://rs.tdwg.org/dwc/terms/verbatimLongitude,vertebrateTraitObsProc,original longitude of site,string, 100.11 NAD27,,suggested,x,x,x
 minimumElevationInMeters,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,vertebrateTraitObsProc,lower limit of elevation (above sea level) in meters (same as maximum if it is a single point value),numerical,200m,,suggested,x,x,x
 maximumElevationInMeters,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,vertebrateTraitObsProc,upper limit of elevation (above sea level) in meters (same as minimum if it is a single point value),numerical,200m,,suggested,x,x,x
 verbatimElevation,http://rs.tdwg.org/dwc/terms/verbatimElevation,vertebrateTraitObsProc,,original description of elevation,100-200m,,suggested,x,x,x
