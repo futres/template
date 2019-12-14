@@ -35,7 +35,7 @@ measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,un
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,description of method used for measurement,string,used calipers for measurementType,,suggested,x,x,x
 measurementMethodURI,urn:measurementMethodURI,measurementDatum,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,side of individual the measurement was taken,string,,"left,right",suggested,x,x,x
-measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDatum,measurementDatum,name of measurer,string,"MABalk",,suggested,x,x,x
+measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,measurementDatum,name of measurer,string,"MABalk",,suggested,x,x,x
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
 skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"broken, complete",,suggested,x,x,x
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
