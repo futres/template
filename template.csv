@@ -36,7 +36,9 @@ measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatu
 measurementMethodURI,urn:measurementMethodURI,measurementDatum,URI pointing to description of method for measurement,string,URI,,suggested,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,side of individual the measurement was taken,string,,"left,right",suggested,x,x,x
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,measurementDatum,name of measurer,string,"MABalk",,suggested,x,x,x
+measurementDeterminedDate,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate,measurementDatum,date measurement was taken,string,23/12/10,,suggested if have measurementDeterminedBy,x,x,x
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
+skeletalElement,urn:skeletalElement,vertebrateTraitObsProc,name of bone,string,femur,,suggested,x,x,x
 skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"broken, complete",,suggested,x,x,x
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,lower limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"14",,suggested,,x,x
