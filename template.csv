@@ -24,8 +24,10 @@ eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,Co
 samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsProc,description or reference to method of trait measurement,string,see Von Der Dreish,,suggested,x,x,x
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,Condition of the specimen for trait measurement,string,,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",required,x,x,x
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,sex of the individual being measured,string,,"female, male, hermaphrodite",suggested,x,x,x
+verbatimLifeStage,urn:verbatimLifeStage,vertebrateOrganism,original description of life stage of individual,string,young of the year,,suggested,x,x,x
 lifeStage,http://rs.tdwg.org/dwc/terms/lifeStage,vertebrateOrganism,Age class or life stage of the individual being measured,string,,"juvenile, subadult, adult, reproductive",suggested,x,x,x
 reproductiveCondition,http://rs.tdwg.org/dwc/terms/reproductiveCondition,vertebrateOrganism,reproductive condition of the individual at time of measurement,string,,"non-reproductive, pregnant",suggested,x,,
+verbatimAgeValue,urn:verbatimAgeValue,vertebrateOrganism,"numerical value or range indicating how old including the unit such as hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations)",string,"~2-3 yrs",,suggested,x,,
 ageValue,urn:ageValue,vertebrateOrganism,"numerical value indicating how old in hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations).",numerical,6,,suggested,x,,
 ageUnit,urn:ageUnit,vertebrateOrganism,"unit for the ageValue in hour, day, week, month, or year",string,,"hour, day, week, month, year",required if have ageValue,x,,
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,free text field for description of method for determining ageValue,string,counted rings tusk,,required if have ageValue,x,,
@@ -71,4 +73,3 @@ culturalStratigraphyOccupationPeriod,urn:culturalStratigraphyOccupationPeriod,ve
 culturalStratigraphyLocalChronology,urn:culturalStratigraphyLocalChronology,vertebrateTraitObsProc,local cultural period,string or URI,Tepeu [http://vocab.getty.edu/page/aat/300017108],,suggested,,x,
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource,string or DOI,Journal of Vertebrate Paleontology citation format,,required,x,x,x
 dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTraitObsProc,place for notes related to observation event,jsons scipt,,,not required,x,x,x
-
