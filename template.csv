@@ -66,7 +66,7 @@ chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeUncertain
 chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation of dating method,numerical,100,,suggested if do either maximum or minimum ChronometricAge,,x,x
 verbatimDepth,http://rs.tdwg.org/dwc/terms/verbatimDepth,vertebrateTraitObsProc,depth below the surface,string,1-2m,,,,x,x
 minimumDepthInMeters,http://rs.tdwg.org/dwc/terms/minimumDepthInMeters,vertebrateTraitObsProc,the lesser depth below the surface in meters,numerical,0,,,,x,x
-maximumDepthInMeters,http://rs.tdwg.org/dwc/terms/maximumDepthInMetersvertebrateTraitObsProc,the greater depth below the surface in meters,numerical,20,,,,x,x
+maximumDepthInMeters,http://rs.tdwg.org/dwc/terms/maximumDepthInMeters,vertebrateTraitObsProc,the greater depth below the surface in meters,numerical,20,,,,x,x
 lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,name of the lowest hierarchical geologic stratigraphy for where the specimen was collected,string,Pliocene-Pleistocene,,suggested (or chronometricAge),,,x
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,name of the lithographic group from which the specimen was collected,string,Belly River Group,,suggested,,,x
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,name of the lithographic formation from which the specimen was collected,string,Judith River Formation,,suggested,,,x
