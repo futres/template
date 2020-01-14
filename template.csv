@@ -1,10 +1,12 @@
 column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
 materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,identifier for the materialSample that is globally unique,string,UUID,,required,x,x,x
 organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,refers to a lot or single specimen or a single indvidual of the same taxon,string,UUID perhaps in a previous dataset,,suggested,x,x,x
+occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,a globally unique identifier that relates to the Occurrence (as opposed to the digital record of the occurrence),string,UUID,,suggested,x,x,x
 individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual (e.g. single bone within an associated skeleton),string, UUID or we will provide one,,suggested,x,x,x
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,code or abbreviation for the institution or museum,string,NMNH for the National Museum of Natural History,,required,x,x,x
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,code or abbreviation for the collection within the museum,string,PAL for Department of Paleontology,,required,x,x,x
 catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,number assigned to the specimen by the institution or museum,numerical,12345,,required,x,x,x
+otherCatalogNumbers,http://rs.tdwg.org/dwc/terms/otherCatalogNumbers,vertebrateOrganism,A list of previous catalog numbers or human-used identifiers for the indivudal occurrence,string,NPS YELLO6778 | MBG 33424,,,x,x,x
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,lowest taxnomic indentification for a specimen,string,Neotoma cinerea,,required,x,x,x
 fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,number assigned to the field site or lot,string,F-123,,suggested,x,x,x
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,latitude in decimal degrees between -90 and 90,numerical,45.00,,suggested (need this or locality),x,x,x
@@ -41,7 +43,8 @@ measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,mea
 measurementDeterminedDate,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate,measurementDatum,date measurement was taken,string,23/12/10,,suggested if have measurementDeterminedBy,x,x,x
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
 skeletalElement,urn:skeletalElement,vertebrateTraitObsProc,name of bone,string,femur,,suggested,x,x,x
-skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"broken, complete",,suggested,x,x,x
+skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"burning: calcined, animal alteration: none, taphonomy: medial side eroded slightly, conservation treatment: alvar",,suggested,x,x,
+skeletalElementPortion,vertebrateTraitObsProc,"portion of the element represented, can be descriptive (eg distal epiphysis) or proportional (75% of diaphysis)",string,"distal diaphysis+epiphysis, element 75% complete",,suggested,x,x,x
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,lower limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"14",,suggested,,x,x
 earliestEonOrLowestEonothem,http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem,chronometricAgeProtocol,earliest geochronologic eon from which the specimen was collected,string,Phanerozoic,need one,,,,x
@@ -61,6 +64,9 @@ maximumChronometricAge,http://zooarchnet.org/dwc/terms/maximumChronometricAge,ve
 maximumChronometricAgeReferenceSystem,http://zooarchnet.org/dwc/terms/maximumChronometricAgeReferenceSystem,vertebrateTraitObsProc,units for the maximumChronometricAge,string,"mya; B.C.E.",,needed if there is a value in maximumChronometricAge,,x,x
 chronometricAgeProtocol,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyMethod,vertebrateTraitObsProc,free text or reference to dating method for minimum and maximum chronomtericAge,string,Fairbanks 2007,,suggested if do either maximum or minimum chronometricAge,,x,x
 chronometricAgeUncertaintyInYears,http://zooarchnet.org/dwc/terms/chronometricAgeUncertaintyInYears,vertebrateTraitObsProc,standard deviation of dating method,numerical,100,,suggested if do either maximum or minimum ChronometricAge,,x,x
+verbatimDepth,http://rs.tdwg.org/dwc/terms/verbatimDepth,vertebrateTraitObsProc,depth below the surface,string,1-2m,,,,x,x
+minimumDepthInMeters,http://rs.tdwg.org/dwc/terms/minimumDepthInMeters,vertebrateTraitObsProc,the lesser depth below the surface in meters,numerical,0,,,,x,x
+maximumDepthInMeters,http://rs.tdwg.org/dwc/terms/maximumDepthInMetersvertebrateTraitObsProc,the greater depth below the surface in meters,numerical,20,,,,x,x
 lithostratigraphicTerms,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,vertebrateTraitObsProc,name of the lowest hierarchical geologic stratigraphy for where the specimen was collected,string,Pliocene-Pleistocene,,suggested (or chronometricAge),,,x
 group,http://rs.tdwg.org/dwc/terms/group,vertebrateTraitObsProc,name of the lithographic group from which the specimen was collected,string,Belly River Group,,suggested,,,x
 formation,http://rs.tdwg.org/dwc/terms/formation,vertebrateTraitObsProc,name of the lithographic formation from which the specimen was collected,string,Judith River Formation,,suggested,,,x
