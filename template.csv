@@ -44,7 +44,7 @@ measurementDeterminedDate,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,value of measurement error by the measurer,string,10mm,,suggested,x,x,x
 skeletalElement,urn:skeletalElement,vertebrateTraitObsProc,name of bone,string,femur,,suggested,x,x,x
 skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,condition of the specimen,string,"burning: calcined, animal alteration: none, taphonomy: medial side eroded slightly, conservation treatment: alvar",,suggested,x,x,
-skeletalElementPortion,vertebrateTraitObsProc,"portion of the element represented, can be descriptive (eg distal epiphysis) or proportional (75% of diaphysis)",string,"distal diaphysis+epiphysis, element 75% complete",,suggested,x,x,x
+skeletalElementPortion,urn:skeletalElementPortion,vertebrateTraitObsProc,"portion of the element represented, can be descriptive (eg distal epiphysis) or proportional (75% of diaphysis)",string,"distal diaphysis+epiphysis, element 75% complete",,suggested,x,x,x
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,identifier for the geologicalContext such as stratigraphy,string,URI,,suggested,,x,x
 minimumChronometricAge,http://zooarchnet.org/dwc/terms/minimumChronometricAge,vertebrateTraitObsProc,lower limit of the age of the specimen determined by some chronometricAgeProtocol,numerical,"14",,suggested,,x,x
 earliestEonOrLowestEonothem,http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem,chronometricAgeProtocol,earliest geochronologic eon from which the specimen was collected,string,Phanerozoic,need one,,,,x
