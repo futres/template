@@ -25,7 +25,7 @@ country,http://rs.tdwg.org/dwc/terms/county,vertebrateTraitObsProc,The country o
 stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,vertebrateTraitObsProc,The state of porvince of observation or collection.,string,Montana,,suggested,x,x,x
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,The original representatino of the date and time of observation or collection.,string,"date of collection event, not of measurement; Jun 1847",,required,x,x,x
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,Comments about observation or collection event.,string,collected after heavy rains,,suggested,x,x,x
-samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsProc,The method/protocol, reference, or URL of MeasurementType,string,Von Der Dreish 1976,,suggested,x,x,x
+samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsProc,"The method/protocol, reference, or URL of MeasurementType.",string,Von Der Dreish 1976,,suggested,x,x,x
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,The specific nature of the specimen.,string,,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",required,x,x,x
 sex,http://rs.tdwg.org/dwc/terms/sex,vertebrateOrganism,The sex of the individual being measured.,string,,"female, male, hermaphrodite",suggested,x,x,x
 verbatimLifeStage,urn:verbatimLifeStage,vertebrateOrganism,The original description of life stage of individual.,string,young of the year,,suggested,x,x,x
