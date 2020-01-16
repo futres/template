@@ -1,5 +1,5 @@
 column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
-materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,An identifier for the materialSample (single specimen, individual, or lot) that is globally unique.,string,UUID,,required,x,x,x
+materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, individual, or lot) that is globally unique.",string,UUID,,required,x,x,x
 organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,An identifier that refers to a single specimen, individual, or lot of the same taxon.,string,UUID perhaps in a previous dataset,,suggested,x,x,x
 occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,suggested,x,x,x
 individualID,urn:individualID,vertebrateOrganism,An identifier of a distinct individual (e.g. single bone within an associated skeleton).,string, UUID or we will provide one,,suggested,x,x,x
