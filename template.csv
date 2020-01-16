@@ -4,10 +4,12 @@ organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,refers to 
 occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,a globally unique identifier that relates to the Occurrence (as opposed to the digital record of the occurrence),string,UUID,,suggested,x,x,x
 individualID,urn:individualID,vertebrateOrganism,identifier of a distinct individual (e.g. single bone within an associated skeleton),string, UUID or we will provide one,,suggested,x,x,x
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,code or abbreviation for the institution or museum,string,NMNH for the National Museum of Natural History,,required,x,x,x
+institutionID,http://rs.tdwg.org/dwc/terms/institutionID,vertebrateOrganism,An identifier for the institution having custody of the object(s) or information referred to in the record,string,URL,,,x,x,x
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,code or abbreviation for the collection within the museum,string,PAL for Department of Paleontology,,required,x,x,x
 catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,number assigned to the specimen by the institution or museum,numerical,12345,,required,x,x,x
 otherCatalogNumbers,http://rs.tdwg.org/dwc/terms/otherCatalogNumbers,vertebrateOrganism,A list of previous catalog numbers or human-used identifiers for the indivudal occurrence,string,NPS YELLO6778 | MBG 33424,,,x,x,x
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,lowest taxnomic indentification for a specimen,string,Neotoma cinerea,,required,x,x,x
+previousIdentifications,http://rs.tdwg.org/dwc/terms/previousIdentifications,vertebrateOrganism,A list (concatenated and separated) of previous assignments of names to the individual,string,,,,x,x,x
 fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,number assigned to the field site or lot,string,F-123,,suggested,x,x,x
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,latitude in decimal degrees between -90 and 90,numerical,45.00,,suggested (need this or locality),x,x,x
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,longitude in decimal degrees between -180 and 180,numerical,-110.00,,suggested (need this or locality),x,x,x
@@ -78,4 +80,5 @@ culturalRegions,urn:culturalRegions,vertebrateTraitObsProc,the culturally define
 culturalContext,urn:culturalContext,vertebrateTraitObsProc,description of the context(s) to which these specimens pertain,string,midden behind Str 4,,suggested,,x,
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,a related resource that is referenced or otherwise pointed to by the described resource,string,DOI or Journal of Vertebrate Paleontology citation format,,required,x,x,x
 dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTraitObsProc,place for notes related to observation event,jsons scipt,,,not required,x,x,x
+Source,urn:Source,vertebrateOrganism,URL to archived dataset or contact for person(s) who collected the data,string,,,,x,x,x
 informationWithheld,http://rs.tdwg.org/dwc/terms/informationWithheld,vertbrateTraitObsProc,a note that more precise or other information does exist but is not provided,string,"specific locations withheld to protect endangered species, see collection manager for additional detail",,,x,x,x
