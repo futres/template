@@ -80,5 +80,5 @@ culturalRegions,urn:culturalRegions,vertebrateTraitObsProc,The culturally define
 culturalContext,urn:culturalContext,vertebrateTraitObsProc,The description of the context(s) to which these specimens pertain.,string,midden behind Str 4,,suggested,,x,
 references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related resource that is referenced or otherwise pointed to by the described resource.,string,DOI or Journal of Vertebrate Paleontology citation format,,required,x,x,x
 dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTraitObsProc,A place for notes related to observation event.,jsons scipt,,,not required,x,x,x
-Source,urn:Source,vertebrateOrganism,An URL to archived dataset or contact for person(s) who collected the data,,string,,,,x,x,x
+Source,urn:Source,vertebrateOrganism,An URL to archived dataset or contact for person(s) who collected the data.,string,,,,x,x,x
 informationWithheld,http://rs.tdwg.org/dwc/terms/informationWithheld,vertbrateTraitObsProc,A note that more precise or other information does exist but is not provided.,string,"specific locations withheld to protect endangered species, see collection manager for additional detail",,,x,x,x
