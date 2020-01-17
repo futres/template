@@ -38,7 +38,7 @@ ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,A free text field
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,The trait and anatomical or physiological feature being measured.,string,,CV from list of traits,required,x,x,x
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,The numerical value of measurement.,numerical,45,,required,x,x,x
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,The unit associated with the measurementValue.,string,mm,,required,x,x,x
-measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,The description, reference, or URL of the method used for measurementType.,string,used calipers for measurementType,,suggested,x,x,x
+measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,"The description, reference, or URL of the method used for measurementType.",string,used calipers for measurementType,,suggested,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,The side (right or left) of the individual that the measurement was taken.,string,,"left,right",suggested,x,x,x
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,measurementDatum,"A list (concatenated and separated) of names of people, groups, or organizations who determined the measuremtnValue.",string,"MABalk",,suggested,x,x,x
 measurementDeterminedDate,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate,measurementDatum,The date the measurementValue was taken.,string,23/12/10,,suggested if have measurementDeterminedBy,x,x,x
