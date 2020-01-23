@@ -1,8 +1,7 @@
 column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
-materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, individual, or lot) that is globally unique.",string,UUID,,required,x,x,x
-organismID,http://rs.tdwg.org/dwc/terms/organismID,vertebrateOrganism,"An identifier that refers to a single specimen, individual, or lot of the same taxon.",string,UUID perhaps in a previous dataset,,,x,x,x
+materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, individual, or lot) that is globally unique (e.g., each bone within an associated skeleton would have a unique materialSampleID).",string,UUID,,required,x,x,x
 occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,,x,x,x
-individualID,urn:individualID,vertebrateOrganism,An identifier of a distinct individual (e.g. single bone within an associated skeleton).,string, UUID,,suggested,x,x,x
+individualID,urn:individualID,vertebrateOrganism,An identifier of a distinct individual (e.g. all bones within the same associated skeleton would have the same individualID).,string, UUID,,suggested,x,x,x
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,The code or abbreviation for the institution or museum.,string,NMNH for the National Museum of Natural History,,suggested,x,x,x
 institutionID,http://rs.tdwg.org/dwc/terms/institutionID,vertebrateOrganism,An identifier for the institution having custody of the object(s) or information referred to in the record.,string,URL,,,x,x,x
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,The code or abbreviation for the collection or department within the museum.,string,PAL for Department of Paleontology,,suggested,x,x,x
