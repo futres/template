@@ -1,4 +1,4 @@
-column,uri,entity_alias,FuTRES_def,type,example,CV,need,neo,zooarch,paleo
+column,uri,entity_alias,FuTRES_Use,type,example,CV,need,neo,zooarch,paleo
 materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, individual, or lot) that is globally unique (e.g., each bone within an associated skeleton would have a unique materialSampleID).",string,UUID,,required,x,x,x
 occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,,x,x,x
 individualID,urn:individualID,vertebrateOrganism,An identifier of a distinct individual (e.g. all bones within the same associated skeleton would have the same individualID).,string, UUID,,suggested,x,x,x
@@ -42,9 +42,9 @@ measurementSide,urn:measurementSide,measurementDatum,The side (right or left) of
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,measurementDatum,"A list (concatenated and separated) of names of people, groups, or organizations who determined the measuremtnValue.",string,"MABalk",,suggested,x,x,x
 measurementDeterminedDate,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate,measurementDatum,The date the measurementValue was taken.,string,23/12/10,,suggested if have measurementDeterminedBy,x,x,x
 measurementAccuracy,http://rs.tdwg.org/dwc/terms/measurementAccuracy,measurementDatum,The numerical value of measurement error for the measurementValue of either the instrument or the measurer.,string,10mm,,suggested,x,x,x
-skeletalElement,urn:skeletalElement,vertebrateTraitObsProc,The name of specific bone being measured.,string,femur,,,x,x,x
-skeletalElementCondition,urn:skeletalElementCondition,vertebrateTraitObsProc,The condition of the specimen.,string,"burning: calcined, animal alteration: none, taphonomy: medial side eroded slightly, conservation treatment: alvar",,,x,x,
-skeletalElementPortion,urn:skeletalElementPortion,vertebrateTraitObsProc,"The portion of the element represented. This can be descriptive (e.g., distal epiphysis) or proportional (e.g., 75% of diaphysis).",string,"distal diaphysis+epiphysis, element 75% complete",,suggested,x,x,x
+measurementRemarks,http://rs.tdwg.org/dwc/terms/measurementRemarks,measurementDatum,Comments or notes accompanying MeasurementType.,string,"75% of epiphysis",,suggested,x,x,x
+materialSampleType,urn:materialSampleType,vertebrateTraitObsProc,"The completeness of the materialSample.",string,,"Whole organism, Part organism - whole bone, Part organism - part bone, Part organism - whole skeleton, Part organism - gutted, Part organism - gutted and skinned, Part organism - skinned",suggested,x,x,x
+materialSampleCondition,urn:materialSampleCondition,vertebrateTraitObsProc,The post-mordem condition or modification of the specimen.,string,"burning: calcined, animal alteration: none, taphonomy: medial side eroded slightly, conservation treatment: alvar",,,x,x,
 geologicalContextID,http://rs.tdwg.org/dwc/terms/geologicalContextID,vertebrateTraitObsProc,An identifier for the geologicalContext such as stratigraphy.,string,URI,,,,x,x
 chronometricAgeID,http://zooarchnet.org/dwc/terms/chronometricAgeID,vertebrateTraitObsProc,An identifier for the set of information associated with a ChronometricAge. May be a global unique identifier or an identifier specific to the data set.,string,URI,,,,x,x
 earliestEonOrLowestEonothem,http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem,chronometricAgeProtocol,The earliest geochronologic eon from which the specimen was collected.,string,Phanerozoic,need one,,,,x
