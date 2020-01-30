@@ -1,7 +1,7 @@
 column,uri,entity_alias,FuTRES_Use,type,example,CV,need,neo,zooarch,paleo
-materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, individual, or lot) that is globally unique (e.g., each bone within an associated skeleton would have a unique materialSampleID).",string,UUID,,required,x,x,x
-occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,,x,x,x
 individualID,urn:individualID,vertebrateOrganism,An identifier of a distinct individual (e.g. all bones within the same associated skeleton would have the same individualID).,string, UUID; institutionCode-collectionCode-catalogNumber,,suggested,x,x,x
+materialSampleID,http://rs.tdwg.org/dwc/terms/materialSampleID,vertebrateOrganism,"An identifier for the materialSample (single specimen, element, or bone) that is globally unique (e.g., each bone within an associated skeleton would have a unique materialSampleID).",string,UUID; institutionCode-collectionCode-catalogNumber,,required,x,x,x
+diagnosticID,urn:diagnosticID,vertebrateOrganism,An identifier of a single measurement of a specimen / element that is globally unique. We will provide this.,string,UUID,,required,x,x,x
 institutionCode,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,vertebrateOrganism,The code or abbreviation for the institution or museum.,string,NMNH for the National Museum of Natural History,,suggested,x,x,x
 institutionID,http://rs.tdwg.org/dwc/terms/institutionID,vertebrateOrganism,An identifier for the institution having custody of the object(s) or information referred to in the record.,string,URL,,,x,x,x
 collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,The code or abbreviation for the collection or department within the museum.,string,PAL for Department of Paleontology,,suggested,x,x,x
@@ -23,6 +23,7 @@ verbatimLocality,http://rs.tdwg.org/dwc/terms/verbatimLocality,vertebrateTraitOb
 country,http://rs.tdwg.org/dwc/terms/county,vertebrateTraitObsProc,The country of observation or collection.,string,USA,,,x,x,x
 stateProvince,http://rs.tdwg.org/dwc/terms/stateProvince,vertebrateTraitObsProc,The state of porvince of observation or collection.,string,Montana,,,x,x,x
 verbatimEventDate,http://rs.tdwg.org/dwc/terms/verbatimEventDate,vertebrateTraitObsProc,The original representatino of the date and time of observation or collection.,string,"date of collection event, not of measurement; Jun 1847",,suggested,x,x,x
+yearCollected,urn:yearCollected,vertebrateTraitObsProc,The year the specimen or sample was collected.,integer,1999,,,x,x,x
 eventRemarks,http://rs.tdwg.org/dwc/terms/eventRemarks,vertebrateTraitObsProc,Comments about observation or collection event or additional field notes.,string,collected after heavy rains,,,x,x,x
 samplingProtocol,http://rs.tdwg.org/dwc/iri/samplingProtocol,vertebrateTraitObsProc,"The method/protocol, reference, or URL of MeasurementType.",string,Von Der Dreish 1976,,suggested,x,x,x
 basisOfRecord,http://rs.tdwg.org/dwc/terms/basisOfRecord,vertebrateOrganism,The specific nature of the specimen.,string,,"PreservedSpecimen, FossilSpecimen, LivingSpecimen, HumanObservation, MachineObservation",required,x,x,x
@@ -36,7 +37,7 @@ ageUnit,urn:ageUnit,vertebrateOrganism,"The unit associated with the ageValue in
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,A free text field for description of method for determining ageValue.,string,counted rings tusk,,,x,,
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,The trait and anatomical or physiological feature being measured.,string,,CV from list of traits,required,x,x,x
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,The numerical value of measurement.,numerical,45,,required,x,x,x
-measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,The unit associated with the measurementValue.,string,mm,,required,x,x,x
+measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,The unit associated with the measurementValue.,string,,"mm,cm,m,in,ft,km,g,kg,oz,lb",required,x,x,x
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,"The description, reference, or URL of the method used for measurementType.",string,used calipers for measurementType,,required,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,The side (right or left) of the individual that the measurement was taken.,string,,"left,right",,x,x,x
 measurementDeterminedBy,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,measurementDatum,"A list (concatenated and separated) of names of people, groups, or organizations who determined the measuremtnValue.",string,MABalk,,suggested,x,x,x
@@ -81,3 +82,4 @@ references,http://purl.org/dc/terms/references,vertebrateTraitObsProc,A related 
 dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTraitObsProc,A place for notes related to observation event.,jsons scipt,,,,x,x,x
 datasetName,http://rs.tdwg.org/dwc/terms/datasetName,vertebrateOrganism,The name or an URL to archived dataset or contact for person(s) from which the data was derived.,string,,,,x,x,x
 informationWithheld,http://rs.tdwg.org/dwc/terms/informationWithheld,vertbrateTraitObsProc,A note that more precise or other information does exist but is not provided.,string,"specific locations withheld to protect endangered species, see collection manager for additional detail",,,x,x,x
+occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,,x,x,x
