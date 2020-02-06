@@ -8,7 +8,8 @@ You can download the template file directly or clone the repo to your desktop an
 ## Semantic Versioning of Releases
 A release has three numbers separated by periods, like ```1.2.3```
 
-The numbers separated by the dots have the following significance:
+The numbers separated by the dots have the following significance in the FuTRES project:
+
  * First letter (1): a major release that would normally require re-loading all data in GEOME.  This would happen, for example, if we change the root-most leaf node of identifiers (e.g. replacing materialSampleID with diagnosticID).
  * Second letter (2): if there is a change to terms that are REQUIRED (either new or removed).
  * Third letter (3): Any change to non-required terms or definitions or addition of terms that are not required.
