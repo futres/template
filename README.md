@@ -14,4 +14,6 @@ The numbers separated by the dots have the following significance:
  * Third letter (3): Any change to non-required terms or definitions or addition of terms that are not required.
 
 For example, if the current release is ```1.2.1``` and we add a new required term, the new release will be ```1.3.0```.  However, if we add a new term that it is not required, the new release would be ```1.2.2```.  If we decide to change data model more fundamentally, such as adding diagnosticID as the primary key the new release would be ```2.0.0```
+
+Note that using this model, all releases will be final releases, so no need to use ```pre release```.  
  
