@@ -84,3 +84,4 @@ dynamicProperties,http://rs.tdwg.org/dwc/terms/dynamicProperties,vertebrateTrait
 datasetName,http://rs.tdwg.org/dwc/terms/datasetName,vertebrateOrganism,The name or an URL to archived dataset or contact for person(s) from which the data was derived.,string,,,,x,x,x
 informationWithheld,http://rs.tdwg.org/dwc/terms/informationWithheld,vertbrateTraitObsProc,A note that more precise or other information does exist but is not provided.,string,"specific locations withheld to protect endangered species, see collection manager for additional detail",,,x,x,x
 occurrenceID,http://rs.tdwg.org/dwc/terms/occurrenceID,vertebrateOrganism,A globally unique identifier that relates to the Occurrence (existence of the organism(s) in a certain place and time).,string,UUID,,,x,x,x
+license,http://purl.org/dc/terms/license,vertebrateTraitObsProc,A legal code depicting the type of licensing for useage of data.,string,,,,x,x,x
