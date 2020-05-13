@@ -2,6 +2,12 @@
 To use these templates, first see the **templates.csv** for the terms, their definitions, and descriptions. Users looking to contribute data to the FuTRES project can then download the template most appropriate for their data (**user-download-neo** for neontological, **user-download-paleo** for paleontological, or **user-download-zooarch** for zooarchaeological). This provides a blank slate with the appropriate field names, making it easier to reformat your data for ingestion into FuTRES.
 
 In the very near future, you will be able to create custom templates using <a href="https://geome-db.org/workbench/template"> GEOME</a>. 
+1. Create an account
+2. Create project as part of a team and join team workspace "FuTRES".
+3. Create a project (FuTRES_taxon_contributor_location_time.period).
+4. Select template terms for spreadsheet.
+5. Upload data to GEOME under an expedition (FuTRES_taxon_contributor_location_time.period_version.number)
+
 Ontology terms are imported from <a href="http://www.obofoundry.org/ontology/fovt.html">fovt</a>.
 
 You can download the template file directly or clone the repo to your desktop and edit it locally.
