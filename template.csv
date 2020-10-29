@@ -9,6 +9,7 @@ catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,An i
 otherCatalogNumbers,http://rs.tdwg.org/dwc/terms/otherCatalogNumbers,vertebrateOrganism,A list of previous catalog numbers or human-used identifiers for the indivudal occurrence.,string,NPS YELLO6778 | MBG 33424,,,x,x,x
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,"The lowest taxnomic indentification for a specimen, preferably with authorship information.",string,Neotoma cinerea,,required,x,x,x
 previousIdentifications,http://rs.tdwg.org/dwc/terms/previousIdentifications,vertebrateOrganism,A list (concatenated and separated) of previous assignments of names to the specimen.,string,,,,x,x,x
+taxonRank,http://rs.tdwg.org/dwc/terms/verbatimTaxonRank,verbatimOrganism,"The taxonomic rank of the most specific name in the scientificName as it appears in the original record.",string,species,,suggested,x,x,x
 fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,The number assigned to the field site that links the fieldNotes and the collection event.,string,F-123,,,x,x,x
 decimalLatitude,http://rs.tdwg.org/dwc/terms/decimalLatitude,vertebrateTraitObsProc,The geographic latitude in decimal degrees between -90 and 90.,numerical,45,,suggested (need this or locality),x,x,x
 decimalLongitude,http://rs.tdwg.org/dwc/terms/decimalLongitude,vertebrateTraitObsProc,The geographic longitude in decimal degrees between -180 and 180.,numerical,-110,,suggested (need this or locality),x,x,x
