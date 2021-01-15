@@ -8,6 +8,7 @@ collectionCode,http://rs.tdwg.org/dwc/terms/collectionCode,vertebrateOrganism,Th
 catalogNumber,http://rs.tdwg.org/dwc/terms/catalogNumber,vertebrateOrganism,An identifier (preferably unique) assigned to the specimen by the institution or museum.,numerical,12345,,suggested,x,x,x
 otherCatalogNumbers,http://rs.tdwg.org/dwc/terms/otherCatalogNumbers,vertebrateOrganism,A list of previous catalog numbers or human-used identifiers for the indivudal occurrence.,string,NPS YELLO6778 | MBG 33424,,,x,x,x
 scientificName,http://rs.tdwg.org/dwc/terms/scientificName,vertebrateOrganism,"The lowest taxnomic indentification for a specimen, preferably with authorship information.",string,Neotoma cinerea,,required,x,x,x
+identificationQualifier,http://rs.tdwg.org/dwc/terms/identificationQualifier,vertebrateOrganism,"A brief phrase or a standard term (cf., aff.) to express the determiner's doubts about the Identification.",string,,,,x,x,x
 previousIdentifications,http://rs.tdwg.org/dwc/terms/previousIdentifications,vertebrateOrganism,A list (concatenated and separated) of previous assignments of names to the specimen.,string,,,,x,x,x
 taxonRank,http://rs.tdwg.org/dwc/terms/verbatimTaxonRank,verbatimOrganism,"The taxonomic rank of the most specific name in the scientificName as it appears in the original record.",string,species,,suggested,x,x,x
 fieldNumber,http://rs.tdwg.org/dwc/iri/fieldNumber,vertebrateTraitObsProc,The number assigned to the field site that links the fieldNotes and the collection event.,string,F-123,,,x,x,x
@@ -39,8 +40,11 @@ verbatimAgeValue,urn:verbatimAgeValue,vertebrateOrganism,"The numerical value or
 ageValue,urn:ageValue,vertebrateOrganism,"A single numerical value indicating how old in hours, days, weeks, months, or years the individual is a time of death (paleo and zooarchaeological), collection (neoecological), or observation (non-specimen observations).",numerical,6,,,x,,
 ageUnit,urn:ageUnit,vertebrateOrganism,"The unit associated with the ageValue in hour, day, week, month, or year.",string,,"hour, day, week, month, year",,x,,
 ageEstimationMethod,urn:ageEstimationMethod,vertebrateOrganism,A free text field for description of method for determining ageValue.,string,counted rings tusk,,,x,,
+verbatimMeasurementType,urn:verbatimMeasurementType,measurementDatum,The verbatim trait and anatomical or physiological feature being measured.,string,,,,x,x,x
 measurementType,http://rs.tdwg.org/dwc/terms/measurementType,measurementDatum,The trait and anatomical or physiological feature being measured.,string,,CV from list of traits,required,x,x,x
+verbatimMeasurementValue,urn:verbatimMeasurementValue,measurementDatum,The verbatim numerical value of measurement.,string,,,,x,x,x
 measurementValue,http://rs.tdwg.org/dwc/terms/measurementValue,measurementDatum,The numerical value of measurement.,numerical,45,,required,x,x,x
+verbatimUnit,urn:verbatimUnit,measurementDatum,The verbatim unit associated with the verbatimMeasurementValue.,string,,,,x,x,x
 measurementUnit,http://rs.tdwg.org/dwc/terms/measurementUnit,measurementDatum,The unit associated with the measurementValue.,string,,"mm,cm,m,in,ft,km,g,kg,oz,lb",required,x,x,x
 measurementMethod,http://rs.tdwg.org/dwc/terms/measurementMethod,measurementDatum,"The description, reference, or URL of the method used for measurementType.",string,used calipers for measurementType,,required,x,x,x
 measurementSide,urn:measurementSide,measurementDatum,The side (right or left) of the individual that the measurement was taken.,string,,"left,right",,x,x,x
